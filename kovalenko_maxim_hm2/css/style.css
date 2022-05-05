@@ -23,4 +23,13 @@ p {
 }
 .site img {
     margin: 30px 30px 30px 30px ;
+    width: 32px;
+}
+.disc {
+    height: 330px;
+}
+
+.disc img {
+    float: left;
+    padding: 0 10px 10 px 0;
 }
