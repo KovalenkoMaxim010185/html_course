@@ -1,0 +1,39 @@
+body {
+    background-color: #f9f9f9;
+}
+.wrapper {
+    width: 1060px;
+    border: 1px solid red;
+    height: 400px; 
+    margin: 0 auto;
+    background-color: #fff;
+    padding: 60px 45px 60px;
+}
+.logo {
+    width: 145px;
+    height: 40px;
+    display: block;
+    padding-bottom: 40px;
+}
+.nav-menu {
+    list-style-type: none;
+    padding: 0 ;
+    background-color: #504f4f;
+    overflow: auto;
+}
+.nav-menu li {
+    display: inline-block;
+    border-right: 1px solid #838383; 
+    float: left; 
+}
+.nav-menu a{
+    color: white;
+    display: inline-block;
+    height: 40px;
+    padding: 0 40px;
+    text-decoration: none;
+    line-height: 40px;
+}
+.active {
+    background-color: #434343;
+}
