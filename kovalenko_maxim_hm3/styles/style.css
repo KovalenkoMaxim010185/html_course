@@ -1,10 +1,12 @@
 body {
     background-color: #f9f9f9;
 }
+.header {
+    padding-bottom: 40px;
+}
 .wrapper {
     width: 1060px;
-    border: 1px solid red;
-    height: 400px; 
+    height: 950px; 
     margin: 0 auto;
     background-color: #fff;
     padding: 60px 45px 60px;
@@ -22,7 +24,6 @@ body {
     overflow: auto;
 }
 .nav-menu li {
-    display: inline-block;
     border-right: 1px solid #838383; 
     float: left; 
 }
@@ -36,4 +37,33 @@ body {
 }
 .active {
     background-color: #434343;
+}
+.side-menu {
+    float: left;
+    border: 1px solid #c8c8c8;
+    overflow: auto;
+}
+.side-menu li {
+    border: 1px solid #c8c8c8;
+    height: 40px;
+    width: 237px;
+    overflow: hidden;}
+.side-menu a {
+    color: #656363;
+    height: 237px;
+    padding: 0 22px;
+    text-decoration: none;
+    line-height: 40px;
+    display: inline-block;
+}
+.main-content {
+    float: right;
+    width: 680px;
+    
+}
+.image {
+    border: 1px solid #c7c7c7;
+    margin-bottom: 40px;
+    padding: 48px 89px 46px 90px;
+    width: 500px;
 }
