@@ -46,14 +46,15 @@ body {
 .side-menu li {
     border: 1px solid #c8c8c8;
     height: 40px;
-    width: 237px;
+    width: 240px;
     overflow: hidden;}
 .side-menu a {
     color: #656363;
-    height: 237px;
+    height: 40px;
+    width: 240px;
     padding: 0 22px;
     text-decoration: none;
-    line-height: 40px;
+    line-height: 42px;
     display: inline-block;
 }
 .main-content {
@@ -66,4 +67,9 @@ body {
     margin-bottom: 40px;
     padding: 48px 89px 46px 90px;
     width: 500px;
+}
+.main-content p {
+    width: 624px;
+    height: 140px;
+    padding-left: 25px;
 }
