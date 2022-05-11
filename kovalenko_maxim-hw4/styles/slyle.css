@@ -1,0 +1,42 @@
+body {
+    width: 1440px;
+    height: 3264px;
+    background-color: #EDF1F3;
+}
+.wrapper {
+    width: 1280px;
+    height: 1104;
+    margin: 66px auto;
+    background-color: #ffff
+}
+.nav-menu {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    overflow: auto;
+    align-items: center;
+}
+
+.nav-menu li {
+    float: right;
+    width: 120px;
+}
+.nav-menu a {
+    padding: 16px 0;
+    width: 120px;
+}
+.sign  {
+    border: 1px solid #0066CC;
+}
+.sign a {
+    color: #0066CC;
+    text-decoration: none;
+}
+.nav-menu img {
+    width: 104px;
+    height: 32px;
+    padding: 16px 72px;
+}
+.bg-image {
+    display: flex;
+}
