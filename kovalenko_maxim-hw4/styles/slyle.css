@@ -36,7 +36,39 @@ body {
     width: 104px;
     height: 32px;
     padding: 16px 72px;
+    
 }
-.bg-image {
-    display: flex;
+/* .title {
+    background-image: url(../img/fbg.png);
+    height: 200px;
+    text-align: center;
+}
+.title h1 {
+    font-size: 64px;
+    text-transform: uppercase;
+    padding: 48px 74px 0;
+    color: #FFFFFF;
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 500;
+    letter-spacing: 0.08em;
+    font-variant: small-caps;
+}
+.title h2 {
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 24px;
+    line-height: 24px;
+    letter-spacing: 0.32em;
+    text-transform: uppercase;
+    color: #FFFFFF;
+    padding-top: 24px;
+} */
+.b-img {
+    position: absolute;
+}
+.title {
+    color: #fff;
+    z-index: 3;
 }
