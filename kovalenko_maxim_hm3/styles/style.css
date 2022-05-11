@@ -5,7 +5,7 @@ body {
     padding-bottom: 40px;
 }
 .wrapper {
-    width: 1060px;
+    width: 967px;
     height: 950px; 
     margin: 0 auto;
     background-color: #fff;
@@ -38,6 +38,11 @@ body {
 .active {
     background-color: #434343;
 }
+.main {
+    margin-bottom: 59px;
+    width: 967px;
+    height: 581px;
+}
 .side-menu {
     float: left;
     border: 1px solid #c8c8c8;
@@ -47,7 +52,14 @@ body {
     border: 1px solid #c8c8c8;
     height: 40px;
     width: 240px;
-    overflow: hidden;}
+    overflow: hidden;} 
+.side-menu-tel {
+    background-color: #f9f9f9;
+    
+}
+.side-menu-tel a {
+    margin-left: 13px;
+}
 .side-menu a {
     color: #656363;
     height: 40px;
@@ -72,4 +84,31 @@ body {
     width: 624px;
     height: 140px;
     padding-left: 25px;
+    color: #656363;
+}
+.footer {
+    background-color: #e1e1e1;
+    overflow: auto;
+    width: 967px;
+    height: 40px;
+}
+.footer li {
+    padding-right: 69px ;
+    padding-left: 25px;
+    height: 40px;
+    line-height: 40px;
+    float: left;
+}
+.footer a {
+    text-decoration: none;
+    color: #656363;
+    }
+.f_active {
+    text-decoration: underline;
+}
+.prop {
+    float: right;
+    line-height: 40px;
+    padding-right: 25px;
+    color: #656363;
 }
