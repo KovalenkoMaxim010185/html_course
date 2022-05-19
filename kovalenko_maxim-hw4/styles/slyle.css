@@ -1,3 +1,6 @@
+* {
+    position: relative;
+}
 body {
     width: 1440px;
     height: 3264px;
@@ -25,6 +28,7 @@ body {
 .nav-menu li {
     float: right;
     width: 120px;
+    
 }
 .nav-menu a {
    width: 120px;
@@ -83,4 +87,25 @@ button {
 .breadcrumbs li {
     float: left;
     padding-left: 72px;
+}
+.main {
+    padding: 64px 72px;
+    background-color: #FAFAFA;
+    height: 528px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    
+}
+.main-block {
+    width: 368px;
+    height: 400px;
+    background-color: #FFFFFF;
+    
+}
+.footer {
+    display: flex;
+    background-color: #FCFCFC;
+    height: 256px;
+    justify-content: space-evenly;
 }
