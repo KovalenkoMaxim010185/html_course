@@ -40,10 +40,12 @@ textarea {
     margin: 17px 0px 10px 10px;
 }
 .form_left label {
-    margin: 17px 70px 0px 10px;
+    margin-right: 50px;
 }
 .form_left input {
     margin-bottom: 20px;
+    width: 200px;
+    height: 20px;
 }
 .form_left textarea {
     vertical-align: top;
@@ -51,4 +53,9 @@ textarea {
 }
 .form_left select {
     margin-bottom: 20px;
+}
+.fieldset_website input {
+    width: 160px;
+    height: 20px;
+    margin: 4px;
 }
