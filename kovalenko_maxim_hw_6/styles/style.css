@@ -26,16 +26,13 @@ body {
     background: none;
     border: none;
 }
-form {
-    height: 580px;
-}
 textarea {
     width: 200px;
     height: 99px;
     resize: none;
 }
 .form_left {
-    width: 348px;
+    width: 431px;
     height: 552px;
     margin: 17px 0px 10px 10px;
 }
