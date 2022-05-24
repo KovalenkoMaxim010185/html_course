@@ -1,0 +1,31 @@
+body {
+    background-color: #e5e5e5;
+}
+.wrapper {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    width: 888px;
+    height: 656px;
+    background-color: #ffffff;
+}
+.header {
+    height: 39px;
+    background-color: #c1eb9f;
+    display: flex;
+    align-content: center;
+    justify-content: flex-start;
+    align-items: center;
+}
+.header h3 {
+    margin: 0px 38px 0px 10px;
+    
+}
+.header select {
+    background: none;
+    border: none;
+}
+form {
+    height: 580px;
+}
