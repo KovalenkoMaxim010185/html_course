@@ -29,3 +29,26 @@ body {
 form {
     height: 580px;
 }
+textarea {
+    width: 200px;
+    height: 99px;
+    resize: none;
+}
+.form_left {
+    width: 348px;
+    height: 552px;
+    margin: 17px 0px 10px 10px;
+}
+.form_left label {
+    margin: 17px 70px 0px 10px;
+}
+.form_left input {
+    margin-bottom: 20px;
+}
+.form_left textarea {
+    vertical-align: top;
+    margin-bottom: 20px;
+}
+.form_left select {
+    margin-bottom: 20px;
+}

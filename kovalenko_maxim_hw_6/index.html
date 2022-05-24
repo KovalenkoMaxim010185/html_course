@@ -1,30 +1,55 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="./styles/reset.css">
-    <link rel="stylesheet" href="./styles/style.css">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="./styles/reset.css" />
+    <link rel="stylesheet" href="./styles/style.css" />
     <title>HW6</title>
-</head>
-<body>
+  </head>
+  <body>
     <div class="wrapper">
-        <div class="header">
-            <h3>Contact Manager</h3>
-            <select name="More actions" id="More actions">
-                <option value="action 1">More actions</option>
-                <option value="action 2">Action 2</option>
-                <option value="action 3">Action 3</option>
-                <option value="action 4">Action 4</option>
-                <option value="action 5">Action 5</option>
-            </select>
-        </div>
-        <form action="#">
-            <p>First name *</p><input type="First name">
-            <p>Last name *</p><input type="Last name">
-            <p>Adress:</p><textarea name="Adress" id="Adress" cols="30" rows="10"></textarea>
-        </form>
+      <div class="header">
+        <h3>Contact Manager</h3>
+        <select name="More actions" id="More actions">
+          <option value="action 1">More actions</option>
+          <option value="action 2">Action 2</option>
+          <option value="action 3">Action 3</option>
+          <option value="action 4">Action 4</option>
+          <option value="action 5">Action 5</option>
+        </select>
+      </div>
+      <form class="form_left" action="#">
+        <label for="First_name">First name *</label> 
+        <input type="First name" /><br>
+        <label for="Last_name">Last name *</label>
+        <input type="Last name" /><br>
+        <label for="Adress">Adress:</label>
+        <textarea name="Adress" id="Adress" cols="30" rows="10"></textarea><br>
+        <label for="City">City:</label>
+        <input type="City" /><br>
+        <label for="State">State:</label>
+        <select name="State" id="State">
+          <option value="">-Select-</option>
+          <option value="Dnipropetrovsk region">Dnipropetrovsk region</option>
+          <option value="Kyiv region">Kyiv region</option>
+        </select><br>
+        <label for="Zip">Zip:</label>
+        <input type="Zip" /><br>
+        <label for="Home_phone">Home phone:</label>
+        <input type="Home phone" /><br>
+        <label for="Work_phone">Work phone *</label>
+        <input type="Work phone" /><br>
+        <label for="Fax_number">Fax number</label><input type="Fax_number" /><br>
+        <label for="Website">Website</label>
+        <label for="url">URL</label>
+        <input type="url" />
+        <label for="Link_name">Link Name</label>
+        <input type="Link_name" /><br>
+        <label for="Email_Adress">Email Adress</label
+        ><input type="Email_Adress" />
+      </form>
     </div>
-</body>
+  </body>
 </html>
