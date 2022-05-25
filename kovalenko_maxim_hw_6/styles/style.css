@@ -17,10 +17,11 @@ body {
     align-content: center;
     justify-content: flex-start;
     align-items: center;
+    border: 1px solid #a8d585;
 }
 .header h3 {
     margin: 0px 38px 0px 10px;
-    
+    font-weight: bold;
 }
 .header select {
     background: none;
@@ -31,28 +32,84 @@ textarea {
     height: 99px;
     resize: none;
 }
+.forms  {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    justify-content: space-between;
+    border: 1px solid #90bd6b;
+    border-top: none;
+    border-bottom: none;
+    font-weight: bold;
+}
 .form_left {
-    width: 431px;
+    width: 349px;
     height: 552px;
     margin: 17px 0px 10px 10px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
 }
-.form_left label {
-    margin-right: 50px;
-}
-.form_left input {
-    margin-bottom: 20px;
-    width: 200px;
-    height: 20px;
-}
+
 .form_left textarea {
     vertical-align: top;
-    margin-bottom: 20px;
+    float: right;
 }
 .form_left select {
-    margin-bottom: 20px;
+    float: right;
 }
-.fieldset_website input {
-    width: 160px;
-    height: 20px;
-    margin: 4px;
+fieldset label {
+    float: right;
+    font-weight: lighter;
+}
+.form_left input {
+    float: right;
+}
+.necessary::after{
+    content: "*";
+    color: red;
+}
+.form_right {
+    width: 407px;
+    height: 291px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    float: right;
+    margin: 17px 32px 10px 10px;
+}
+.form_right legend {
+    float: left;
+}
+.form_right textarea {
+    vertical-align: top;
+    float: right;
+}
+.form_right input {
+    display: flex;
+    flex-direction: column;
+    float: right;
+}
+.footer {
+    background-color: #e3e3e3;
+    height: 38px;
+    display: flex;
+    justify-content: space-around;
+    align-content: center;
+    align-items: center;
+    border: 1px solid #90bd6b;
+    border-top: none;
+    
+}
+.footer_buttons {
+    width: 177px;
+    display: flex;
+    justify-content: space-between;
+}
+.footer_buttons input {
+    width: 87px;
+    height: 23px;
+    background-color: #91BA6f;
+    color: white;
+    border-color: #7aa359;
 }
