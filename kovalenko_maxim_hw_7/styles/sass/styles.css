@@ -1,10 +1,79 @@
+@charset "UTF-8";
+html, body, div, span, applet, object, iframe, h1, h2, h3, h4, h5, h6, p, blockquote, pre, a, abbr, acronym, address, big, cite, code, del, dfn, em, img, ins, kbd, q, s, samp, small, strike, strong, sub, sup, tt, var, b, u, i, center, dl, dt, dd, ol, ul, li, fieldset, form, label, legend, table, caption, tbody, tfoot, thead, tr, th, td, article, aside, canvas, details, embed, figure, figcaption, footer, header, hgroup, menu, nav, output, ruby, section, summary, time, mark, audio, video {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  font-size: 100%;
+  font: inherit;
+  vertical-align: baseline;
+}
+
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure, footer, header, hgroup, menu, nav, section {
+  display: block;
+}
+
+body {
+  line-height: 1;
+}
+
+ol, ul {
+  list-style: none;
+}
+
+blockquote, q {
+  quotes: none;
+}
+
+blockquote:before, blockquote:after {
+  content: '';
+  content: none;
+}
+
+q:before, q:after {
+  content: '';
+  content: none;
+}
+
+table {
+  border-collapse: collapse;
+  border-spacing: 0;
+}
+
+@media (max-width: 1180) {
+  .wrapper {
+    width: 940px;
+  }
+}
+
+@media (max-width: 480px) {
+  .logo_desktop {
+    display: none;
+  }
+  .logo_mobile {
+    display: block;
+  }
+  .header_menu {
+    display: none;
+  }
+}
+
+body {
+  background-color: #E5E5E5;
+}
+
 .wrapper {
+  width: 1440px;
   margin: 0 auto;
+  background-color: #FFFFFF;
+  border-start-start-radius: 20px;
+  border-start-end-radius: 20px;
 }
 
 .wrapper header {
   width: 1170px;
   height: 96px;
+  padding: 0 135px 0 135px;
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -18,19 +87,74 @@
           align-items: center;
 }
 
-.wrapper header li {
-  float: right;
-  width: 160.13px;
-  height: 64px;
+.wrapper header .logo {
+  display: block;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  text-decoration: none;
 }
 
-.wrapper header li a {
-  text-decoration: none;
-  color: #2D3436;
+.wrapper header .logo span {
   font-family: "Inter";
-  text-align: center;
-  width: 160.13px;
-  height: 64px;
+  font-style: normal;
+  font-weight: 700;
+  font-size: 48px;
+  line-height: 56px;
+  letter-spacing: -1px;
+  color: #2D3436;
+}
+
+.wrapper header .logo_mobile {
+  display: none;
+}
+
+.wrapper header .header_menu {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.wrapper header .header_menu li {
+  float: right;
+  margin-right: 24.56px;
+}
+
+.wrapper header .header_menu li a {
+  text-decoration: none;
+  font-family: "Inter";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 18px;
+  line-height: 32px;
+  letter-spacing: 0.2px;
+  color: #2D3436;
+}
+
+.wrapper header .header_menu li a:hover {
+  color: #6C5CE7;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 32px;
+}
+
+.wrapper header .header_menu li + li::before {
+  content: '•';
+  font-family: "Inter";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 18px;
+  line-height: 32px;
+  letter-spacing: 0.2px;
+  color: #FDCB6E;
+  padding-right: 23px;
 }
 
 .wrapper header button {

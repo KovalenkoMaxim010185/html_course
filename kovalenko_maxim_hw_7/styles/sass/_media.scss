@@ -1,0 +1,18 @@
+@media (max-width: 1180) {
+    .wrapper {
+        width: 940px;
+    }
+}
+
+@media (max-width: 480px) {
+    .logo_desktop {
+        display: none;
+    }
+    .logo_mobile {
+        display: block;
+        
+    }
+    .header_menu{
+        display: none;
+    }
+}
