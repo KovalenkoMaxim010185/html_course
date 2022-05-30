@@ -1,20 +1,23 @@
 @import 'reset';
-@import 'media';
+
 $header_fonts: 'Inter';
 
 body {
     background-color: #E5E5E5;
 }
 .wrapper {
-    width: 1440px;
+    max-width: 1440px;
+    width: 100%;
     margin: 0 auto;
     background-color: #FFFFFF;
     border-start-start-radius: 20px;
     border-start-end-radius: 20px;
+    filter: drop-shadow(0px 2px 4px rgba(38, 50, 56, 0.16)) drop-shadow(0px 4px 8px rgba(38, 50, 56, 0.08));
+    .inner_wrapper {
+        
+    }
     header {
-        width: 1170px;
-        height: 96px;
-        padding: 0 135px 0 135px;
+        padding: 16px 135px 16px 135px;
         display: flex;
         align-content: center;
         justify-content: space-between;
@@ -93,3 +96,4 @@ body {
     
 }
 
+@import 'media';

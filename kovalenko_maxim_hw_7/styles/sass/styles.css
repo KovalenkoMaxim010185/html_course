@@ -40,40 +40,23 @@ table {
   border-spacing: 0;
 }
 
-@media (max-width: 1180) {
-  .wrapper {
-    width: 940px;
-  }
-}
-
-@media (max-width: 480px) {
-  .logo_desktop {
-    display: none;
-  }
-  .logo_mobile {
-    display: block;
-  }
-  .header_menu {
-    display: none;
-  }
-}
-
 body {
   background-color: #E5E5E5;
 }
 
 .wrapper {
-  width: 1440px;
+  max-width: 1440px;
+  width: 100%;
   margin: 0 auto;
   background-color: #FFFFFF;
   border-start-start-radius: 20px;
   border-start-end-radius: 20px;
+  -webkit-filter: drop-shadow(0px 2px 4px rgba(38, 50, 56, 0.16)) drop-shadow(0px 4px 8px rgba(38, 50, 56, 0.08));
+          filter: drop-shadow(0px 2px 4px rgba(38, 50, 56, 0.16)) drop-shadow(0px 4px 8px rgba(38, 50, 56, 0.08));
 }
 
 .wrapper header {
-  width: 1170px;
-  height: 96px;
-  padding: 0 135px 0 135px;
+  padding: 16px 135px 16px 135px;
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -171,5 +154,23 @@ body {
   letter-spacing: 0.25px;
   color: #FFFFFF;
   text-shadow: 0px 2px 4px rgba(38, 50, 56, 0.16), 0px 4px 8px rgba(38, 50, 56, 0.08);
+}
+
+@media (max-width: 1280) {
+  .inner_wrapper {
+    width: 940px;
+  }
+}
+
+@media (max-width: 480px) {
+  .logo_desktop {
+    display: none;
+  }
+  .wrapper header .logo_mobile {
+    display: block;
+  }
+  .header_menu {
+    display: none;
+  }
 }
 /*# sourceMappingURL=styles.css.map */

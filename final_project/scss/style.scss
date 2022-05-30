@@ -1,0 +1,156 @@
+@font-face {
+    font-family: 'Halyard Display';
+    src: url(../fonts/Halyard_Display.ttf);
+}
+@font-face {
+    font-family: 'Halyard Text';
+    src: url(../fonts/Halyard_Text_Regular.ttf);
+}
+body {
+    background-color: #E5E5E5;
+}
+.wrapper {
+    max-width: 1600px;
+    width: 100%;
+    margin: 0 auto;
+    background-color: #fff;
+
+    .header {
+        margin: 0 210px 0 210px;
+        display: flex;
+        max-width: 1180px;
+        width: 100%;
+        align-content: center;
+        justify-content: space-between;
+        align-items: center;
+    
+    // logo
+    .logo {
+        color: #1E266D;
+        text-decoration: none;
+        font-family: 'Halyard Display';
+        font-style: normal;
+        font-weight: 600;
+        font-size: 30.9562px;
+        line-height: 100%;
+        }
+        .logo::after {
+            content: ':';
+            color: #FF2E6A;
+        }
+        // dropdow_narrow
+    .dropdown {
+            position: relative;
+            display: inline-block;
+          }
+          
+    .dropdown-content {
+            display: none;
+            position: absolute;
+            background-color: #fff;
+            box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+            z-index: 1;
+          }
+          
+    .dropdown-content a {
+            color: #1E266D;
+            padding: 12px 16px;
+            text-decoration: none;
+            float: right;
+            
+          }
+        .dropdown-content a:hover {background-color: #ddd;}
+
+        .dropdown:hover .dropdown-content {display: block;}
+
+        .dropdown:hover .dropbtn {background-color: #3e8e41;}
+    
+        // Contacts
+        .contacts {
+            font-family: 'Halyard Text';
+            font-style: normal;
+            font-weight: 400;
+            font-size: 16px;
+            line-height: 80px;
+            span {
+                color: #1E266D;
+                margin-right: 35px;
+            }
+            button {
+                background: #3751FF;
+                border-radius: 100px;
+                color: #FFFFFF;
+                padding: 16px 18px;
+                border: none;
+            }
+            button:hover {
+                background-color: #fff;
+                color: #FF2E6A;
+            }
+    }
+    }
+
+.main {
+    margin: 0 210px 0 210px;
+    
+    .main__greeting {
+        display: flex;
+        align-content: center;
+        justify-content: center;
+        align-items: center;
+        flex-direction: column;
+        h1 {
+            font-family: 'Halyard Display';
+            font-style: normal;
+            font-weight: 500;
+            font-size: 56px;
+            line-height: 105%;
+            color: #1E266D;
+            max-width: 503px;
+            width: 100%;
+        }
+        p {
+            font-family: 'Halyard Text';
+            font-style: normal;
+            font-weight: 400;
+            font-size: 18px;
+            line-height: 150%;
+            color: #455880
+        }
+        .main__greeting_buttons_blue {
+            font-family: 'Halyard Text';
+            font-style: normal;
+            font-weight: 400;
+            font-size: 16px;
+            line-height: 100%;
+            color:#FFFFFF;
+            background-color: #3751FF;
+            border-radius: 100px;
+            border: none;
+            padding: 17px 39px;
+            margin-right: 50px;
+        }
+        
+        .main__greeting_buttons_clear {
+            font-family: 'Halyard Text';
+            font-style: normal;
+            font-weight: 400;
+            font-size: 16px;
+            line-height: 100%;
+            color: #455880;
+            background-color: #fff;
+            border-radius: 100px;
+            border: none;
+            padding: 17px 39px;
+        }
+        .main__greeting_buttons_clear:hover {
+            color:#FFFFFF;
+            background-color: #3751FF;
+            &.main__greeting_buttons_blue{
+                color: #455880;
+                 background-color: #fff;
+            }
+        }
+    }
+}
+}

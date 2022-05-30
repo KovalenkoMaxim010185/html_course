@@ -1,5 +1,5 @@
-@media (max-width: 1180) {
-    .wrapper {
+@media (max-width: 1280) {
+    .inner_wrapper {
         width: 940px;
     }
 }
@@ -8,7 +8,7 @@
     .logo_desktop {
         display: none;
     }
-    .logo_mobile {
+    .wrapper header .logo_mobile {
         display: block;
         
     }
