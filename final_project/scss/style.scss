@@ -17,6 +17,9 @@ body {
     li {
         list-style: none;
     }
+    a {
+        text-decoration: none;
+    }
     .header {
         margin: 0 auto;
         display: flex;
@@ -92,7 +95,7 @@ body {
     }
     }
 
-.main {
+    .main {
     margin: 0 210px 0 210px;
   
     .main__greeting {
@@ -305,19 +308,21 @@ body {
         }
         .main__testimonials_conteiner {
             display: flex;
-            
-
+            align-items: flex-start;
             max-width: 1179px;
             width: 100%;
-            .main__testimonials_conteiner_box {
+            .main__testimonials_conteiner_box_left, .main__testimonials_conteiner_box_centr, .main__testimonials_conteiner_box_right {
                 border: 1px solid #45588033;
                 padding: 38px 43px;
                 max-width: 373px;
                 width: 100%;
+                height: 467px;
                 display: flex;
                 flex-direction: column;
-                justify-content: center;
+                justify-content: space-between;
                 align-items: center;
+                box-sizing: border-box;
+                
                 p {
                     font-family: 'Halyard Text';
                     font-style: normal;
@@ -326,7 +331,14 @@ body {
                     line-height: 180%;
                     color: #455880;
                 }
-                h4 {
+                img {
+                    align-self: center;
+                }
+                
+                .main__testimonials_conteiner_box_footer {
+                    width: 270px;
+                    height: 60px;
+                    h4 {
                     font-family: 'Halyard Display';
                     font-style: normal;
                     font-weight: 500;
@@ -336,9 +348,153 @@ body {
                     color: #1E266D;
                     margin-bottom: 0%;
                 }
+                    p {
+                    text-align: center;
+                    margin-top: 0%;
+                }
+                }
+            }
+            .main__testimonials_conteiner_box_centr {
+                margin: 0 31.65px 0 31.65px;
             }
         }
 
     }
+    .main__cta {
+        background-color: #3751FF;
+        margin-top: 148px;
+        display: flex;
+        max-width: 1600px;
+        width: 100%;
+        height: 323px;
+        align-content: center;
+        justify-content: space-around;
+        align-items: center;
+        h2 {
+            font-family: 'Halyard Display';
+            font-style: normal;
+            font-weight: 500;
+            font-size: 48px;
+            line-height: 60px;
+            color: #FFFFFF;
+            max-width: 366px;
+            width: 100%;
+        }
+        .main__cta_button-box {
+            display: flex;
+            flex-direction: column;
+            align-items: flex-end;
+        button {
+            width: 245.28px;
+            height: 56px;
+            background-color: #FFFFFF;
+            border-radius: 100px;
+            border: none;
+            font-family: 'Halyard Display';
+            font-style: normal;
+            font-weight: 500;
+            font-size: 18px;
+            line-height: 110%;
+            text-align: center;
+            color: #455880;
+            display: flex;
+            align-content: center;
+            justify-content: center;
+            align-items: center;
+            justify-content: space-evenly;
+            box-sizing: border-box;
+        }
+        button:hover {
+            background-color: #FED385;
+            color: #FF2E6A;
+        }
+        a {
+            text-decoration: none;
+            color: #FED385;
+        }
+        p {
+            font-family: 'Halyard Text';
+            font-style: normal;
+            font-weight: 400;
+            font-size: 16px;
+            line-height: 125%;
+            color: #DFE0EB;
+        }
+    }
+    }
+    }
+    .footer {
+        .footer__up {
+            display: flex;
+            max-width: 1180px;
+            width: 100%;
+            margin: 0 auto;
+            justify-content: space-between;
+            align-items: baseline;
+            padding: 128px 0 68px 0;
+            border-bottom: 1px solid rgba(135, 146, 161, 0.08);
+            ul {
+                padding: 0%;
+            }
+            h5 {
+                font-family: 'Halyard Display';
+                font-style: normal;
+                font-weight: 500;
+                font-size: 22px;
+                line-height: 125%;
+                color: #1E266D;
+            }
+            a {
+                font-family: 'Halyard Text';
+                font-style: normal;
+                font-weight: 400;
+                font-size: 18px;
+                line-height: 225%;
+                color: #455880;
+            }
+            .digits{
+                width: 310px;
+                height: 66px;
+                display: flex;
+                flex-direction: column;
+                .logo {
+                font-family: 'Halyard Display';
+                font-style: normal;
+                font-weight: 600;
+                font-size: 26.1637px;
+                line-height: 100%;
+                color: #1E266D;
+                text-decoration: none;
+                margin-bottom: 31.37px;
+            }
+            .logo::after {
+                content: ':';
+                color: #FF2E6A;
+            }
+            p {
+                font-family: 'Halyard Text';
+                font-style: normal;
+                font-weight: 400;
+                font-size: 18px;
+                line-height: 145%;
+                color: #455880;
+            }
+            }
+            .pages, .demos {
+                display: flex;
+                flex-direction: column;
+                ul {
+                    margin-top: 0%;
+                }
+            }
+            .resourses {
+                .social {
+                    li {
+                        display: inline;
+                        margin-right: 26px;
+                    }
+                }
+            }
+        }
     }
 }
