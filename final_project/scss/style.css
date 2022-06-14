@@ -73,11 +73,13 @@ body {
   z-index: 1;
 }
 
+.wrapper .header .dropdown-content li {
+  display: inline;
+}
+
 .wrapper .header .dropdown-content a {
   color: #1E266D;
-  padding: 12px 16px;
   text-decoration: none;
-  float: right;
 }
 
 .wrapper .header .dropdown-content a:hover {
@@ -86,10 +88,6 @@ body {
 
 .wrapper .header .dropdown:hover .dropdown-content {
   display: block;
-}
-
-.wrapper .header .dropdown:hover .dropbtn {
-  background-color: #3e8e41;
 }
 
 .wrapper .header .contacts {
@@ -118,11 +116,10 @@ body {
   color: #FF2E6A;
 }
 
-.wrapper .main {
-  margin: 0 210px 0 210px;
-}
-
 .wrapper .main .main__greeting {
+  max-width: 1180px;
+  width: 100%;
+  margin: 0 auto;
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -198,6 +195,9 @@ body {
 }
 
 .wrapper .main .main__logos {
+  max-width: 1180px;
+  width: 100%;
+  margin: 0 auto;
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -246,6 +246,9 @@ body {
   -webkit-box-align: center;
       -ms-flex-align: center;
           align-items: center;
+  max-width: 1180px;
+  width: 100%;
+  margin: 0 auto;
 }
 
 .wrapper .main .main__about h2 {
@@ -328,7 +331,6 @@ body {
 .wrapper .main .main__portfolio {
   max-width: 1600px;
   width: 100%;
-  margin: 0 auto;
   background-color: #FFF9EA;
   display: -webkit-box;
   display: -ms-flexbox;
@@ -382,9 +384,10 @@ body {
   margin-bottom: 36px;
 }
 
-.wrapper .main .main__portfolio img {
-  max-width: 1600px;
+.wrapper .main .main__testimonials {
+  max-width: 1180px;
   width: 100%;
+  margin: 0 auto;
 }
 
 .wrapper .main .main__testimonials h2 {
@@ -656,5 +659,42 @@ body {
 .wrapper .footer .footer__up .resourses .social li {
   display: inline;
   margin-right: 26px;
+}
+
+.wrapper .footer .footer__bottom {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  max-width: 1180px;
+  width: 100%;
+  margin: 0 auto;
+  padding: 53px 0 107px 0;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+}
+
+.wrapper .footer .footer__bottom li {
+  display: inline;
+}
+
+.wrapper .footer .footer__bottom li a {
+  font-family: 'Halyard Text';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 27px;
+  text-align: right;
+  color: #455880;
+  margin-left: 27px;
+}
+
+.wrapper .footer .footer__bottom p {
+  font-family: 'Halyard Text';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 27px;
+  color: rgba(69, 88, 128, 0.5);
 }
 /*# sourceMappingURL=style.css.map */

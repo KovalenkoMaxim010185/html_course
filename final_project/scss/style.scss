@@ -55,20 +55,22 @@ body {
             background-color: #fff;
             box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
             z-index: 1;
+            li {
+                display: inline;
+            }
+            a {
+                color: #1E266D;
+                // padding: 12px 16px;
+                text-decoration: none;
+                
+                
+              }
           }
           
-    .dropdown-content a {
-            color: #1E266D;
-            padding: 12px 16px;
-            text-decoration: none;
-            float: right;
-            
-          }
+     
         .dropdown-content a:hover {background-color: #ddd;}
 
         .dropdown:hover .dropdown-content {display: block;}
-
-        .dropdown:hover .dropbtn {background-color: #3e8e41;}
     
         // Contacts
         .contacts {
@@ -96,9 +98,11 @@ body {
     }
 
     .main {
-    margin: 0 210px 0 210px;
-  
+
     .main__greeting {
+        max-width: 1180px;
+        width: 100%;
+        margin: 0 auto;
         display: flex;
         align-content: center;
         justify-content: center;
@@ -160,6 +164,9 @@ body {
         }
     }
     .main__logos {
+        max-width: 1180px;
+        width: 100%;
+        margin: 0 auto;
         display: flex;
         flex-direction: column;
         align-content: center;
@@ -185,7 +192,9 @@ body {
         display: flex;
         flex-direction: column;
         align-items: center;
-        
+        max-width: 1180px;
+        width: 100%;
+        margin: 0 auto;
         h2 {
             font-family: 'Halyard Display';
             font-weight: 500;
@@ -249,7 +258,6 @@ body {
     .main__portfolio {
         max-width: 1600px;
         width: 100%;
-        margin: 0 auto;
         background-color: #FFF9EA;
         display: flex;
         flex-direction: column;
@@ -291,12 +299,11 @@ body {
             margin-top: 19px;
             margin-bottom: 36px;
         }
-        img {
-            max-width: 1600px;
-            width: 100%;
-        }
     }
     .main__testimonials {
+        max-width: 1180px;
+        width: 100%;
+        margin: 0 auto;
         h2 {
             font-family: 'Halyard Display';
             font-weight: 500;
@@ -494,6 +501,35 @@ body {
                         margin-right: 26px;
                     }
                 }
+            }
+        }
+        .footer__bottom {
+            display: flex;
+            max-width: 1180px;
+            width: 100%;
+            margin: 0 auto;
+            padding: 53px 0 107px 0;
+            justify-content: space-between;
+            li {
+                display: inline;
+                a {
+                font-family: 'Halyard Text';
+                font-style: normal;
+                font-weight: 400;
+                font-size: 14px;
+                line-height: 27px;
+                text-align: right;
+                color: #455880;
+                margin-left: 27px;
+                }
+            }
+            p {
+                font-family: 'Halyard Text';
+                font-style: normal;
+                font-weight: 400;
+                font-size: 14px;
+                line-height: 27px;
+                color: rgba(69, 88, 128, 0.5);
             }
         }
     }
