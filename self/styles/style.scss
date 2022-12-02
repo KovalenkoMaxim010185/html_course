@@ -1,0 +1,19 @@
+@import '_reset.scss';
+@import '_header.scss';
+
+body {
+    background: url(../img/bg.jpg);
+    background-repeat: no-repeat;
+    background-size: cover auto;
+    
+}
+.wrapper {
+    max-width: 1200px;
+    background-color: rgb(240, 231, 231);
+    margin: 0 auto;    
+}
+a {
+    text-decoration: none;
+    font-family: 'Times New Roman', Times, serif;
+    font-weight: 400;
+}
