@@ -1,13 +1,11 @@
 @font-face {
-  font-family: 'Halyard Display';
+  font-family: "Halyard Display";
   src: url(../fonts/Halyard_Display.ttf);
 }
-
 @font-face {
-  font-family: 'Halyard Text';
+  font-family: "Halyard Text";
   src: url(../fonts/Halyard_Text_Regular.ttf);
 }
-
 body {
   background-color: #E5E5E5;
 }
@@ -18,91 +16,69 @@ body {
   margin: 0 auto;
   background-color: #fff;
 }
-
 .wrapper li {
   list-style: none;
 }
-
 .wrapper a {
   text-decoration: none;
 }
-
 .wrapper .header {
   margin: 0 auto;
-  display: -webkit-box;
-  display: -ms-flexbox;
   display: flex;
   max-width: 1180px;
   width: 100%;
-  -ms-flex-line-pack: center;
-      align-content: center;
-  -webkit-box-pack: justify;
-      -ms-flex-pack: justify;
-          justify-content: space-between;
-  -webkit-box-align: center;
-      -ms-flex-align: center;
-          align-items: center;
+  align-content: center;
+  justify-content: space-between;
+  align-items: center;
 }
-
 .wrapper .header .logo {
   color: #1E266D;
   text-decoration: none;
-  font-family: 'Halyard Display';
+  font-family: "Halyard Display";
   font-style: normal;
   font-weight: 600;
   font-size: 30.9562px;
   line-height: 100%;
 }
-
 .wrapper .header .logo::after {
-  content: ':';
+  content: ":";
   color: #FF2E6A;
 }
-
 .wrapper .header .dropdown {
   position: relative;
   display: inline-block;
 }
-
 .wrapper .header .dropdown-content {
   display: none;
   position: absolute;
   background-color: #fff;
-  -webkit-box-shadow: 0px 8px 16px 0px rgba(0, 0, 0, 0.2);
-          box-shadow: 0px 8px 16px 0px rgba(0, 0, 0, 0.2);
+  box-shadow: 0px 8px 16px 0px rgba(0, 0, 0, 0.2);
   z-index: 1;
 }
-
 .wrapper .header .dropdown-content li {
   display: inline;
 }
-
 .wrapper .header .dropdown-content a {
   color: #1E266D;
   text-decoration: none;
 }
-
 .wrapper .header .dropdown-content a:hover {
   background-color: #ddd;
 }
-
 .wrapper .header .dropdown:hover .dropdown-content {
   display: block;
 }
-
 .wrapper .header .contacts {
-  font-family: 'Halyard Text';
+  font-family: "Halyard Text";
   font-style: normal;
   font-weight: 400;
   font-size: 16px;
   line-height: 80px;
 }
-
 .wrapper .header .contacts span {
   color: #1E266D;
   margin-right: 35px;
 }
-
 .wrapper .header .contacts button {
   background: #3751FF;
   border-radius: 100px;
@@ -110,36 +86,23 @@ body {
   padding: 16px 18px;
   border: none;
 }
-
 .wrapper .header .contacts button:hover {
   background-color: #fff;
   color: #FF2E6A;
 }
-
 .wrapper .main .main__greeting {
   max-width: 1180px;
   width: 100%;
   margin: 0 auto;
-  display: -webkit-box;
-  display: -ms-flexbox;
   display: flex;
-  -ms-flex-line-pack: center;
-      align-content: center;
-  -webkit-box-pack: center;
-      -ms-flex-pack: center;
-          justify-content: center;
-  -webkit-box-align: center;
-      -ms-flex-align: center;
-          align-items: center;
-  -webkit-box-orient: vertical;
-  -webkit-box-direction: normal;
-      -ms-flex-direction: column;
-          flex-direction: column;
+  align-content: center;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
   padding-top: 150px;
 }
-
 .wrapper .main .main__greeting h1 {
-  font-family: 'Halyard Display';
+  font-family: "Halyard Display";
   font-style: normal;
   font-weight: 500;
   font-size: 56px;
@@ -150,9 +113,8 @@ body {
   margin: 0 auto;
   text-align: center;
 }
-
 .wrapper .main .main__greeting p {
-  font-family: 'Halyard Text';
+  font-family: "Halyard Text";
   font-style: normal;
   font-weight: 400;
   font-size: 18px;
@@ -161,14 +123,12 @@ body {
   padding-top: 25px;
   margin: 0 auto;
 }
-
 .wrapper .main .main__greeting .main__greeting_buttons {
   margin-top: 30px;
   margin-bottom: 30px;
 }
-
 .wrapper .main .main__greeting .main__greeting_buttons .main__greeting_buttons_blue {
-  font-family: 'Halyard Text';
+  font-family: "Halyard Text";
   font-style: normal;
   font-weight: 400;
   font-size: 16px;
@@ -180,9 +140,8 @@ body {
   padding: 17px 39px;
   margin-right: 22px;
 }
-
 .wrapper .main .main__greeting .main__greeting_buttons .main__greeting_buttons_clear {
-  font-family: 'Halyard Text';
+  font-family: "Halyard Text";
   font-style: normal;
   font-weight: 400;
   font-size: 16px;
@@ -193,66 +152,40 @@ body {
   border: none;
   padding: 17px 39px;
 }
-
 .wrapper .main .main__logos {
   max-width: 1180px;
   width: 100%;
   margin: 0 auto;
-  display: -webkit-box;
-  display: -ms-flexbox;
   display: flex;
-  -webkit-box-orient: vertical;
-  -webkit-box-direction: normal;
-      -ms-flex-direction: column;
-          flex-direction: column;
-  -ms-flex-line-pack: center;
-      align-content: center;
-  -webkit-box-pack: justify;
-      -ms-flex-pack: justify;
-          justify-content: space-between;
-  -webkit-box-align: center;
-      -ms-flex-align: center;
-          align-items: center;
+  flex-direction: column;
+  align-content: center;
+  justify-content: space-between;
+  align-items: center;
 }
-
 .wrapper .main .main__logos p {
-  font-family: 'Halyard Text';
+  font-family: "Halyard Text";
   font-style: normal;
   font-weight: 400;
   font-size: 16px;
   line-height: 27px;
   color: rgba(69, 88, 128, 0.5);
 }
-
 .wrapper .main .main__logos .main__logos_sites {
-  display: -webkit-box;
-  display: -ms-flexbox;
   display: flex;
   max-width: 1180px;
   width: 100%;
-  -webkit-box-pack: justify;
-      -ms-flex-pack: justify;
-          justify-content: space-between;
+  justify-content: space-between;
 }
-
 .wrapper .main .main__about {
-  display: -webkit-box;
-  display: -ms-flexbox;
   display: flex;
-  -webkit-box-orient: vertical;
-  -webkit-box-direction: normal;
-      -ms-flex-direction: column;
-          flex-direction: column;
-  -webkit-box-align: center;
-      -ms-flex-align: center;
-          align-items: center;
+  flex-direction: column;
+  align-items: center;
   max-width: 1180px;
   width: 100%;
   margin: 0 auto;
 }
-
 .wrapper .main .main__about h2 {
-  font-family: 'Halyard Display';
+  font-family: "Halyard Display";
   font-weight: 500;
   font-size: 48px;
   line-height: 60px;
@@ -262,92 +195,62 @@ body {
   max-width: 452px;
   width: 100%;
 }
-
 .wrapper .main .main__about .main__about_content {
-  display: -webkit-box;
-  display: -ms-flexbox;
   display: flex;
 }
-
 .wrapper .main .main__about .main__about_content .main__about_content_left_img {
   margin-top: -180px;
   margin-right: 138px;
   margin-bottom: 34px;
 }
-
 .wrapper .main .main__about .main__about_content .main__about_right_panel {
-  display: -webkit-box;
-  display: -ms-flexbox;
   display: flex;
-  -webkit-box-orient: vertical;
-  -webkit-box-direction: normal;
-      -ms-flex-direction: column;
-          flex-direction: column;
+  flex-direction: column;
 }
-
 .wrapper .main .main__about .main__about_content .main__about_right_panel .main__about_right_panel_box_design, .wrapper .main .main__about .main__about_content .main__about_right_panel .main__about_right_panel_box_easy, .wrapper .main .main__about .main__about_content .main__about_right_panel .main__about_right_panel_box_fast {
-  display: -webkit-box;
-  display: -ms-flexbox;
   display: flex;
-  -webkit-box-align: start;
-      -ms-flex-align: start;
-          align-items: flex-start;
+  align-items: flex-start;
   border-bottom: 1px solid rgba(69, 88, 128, 0.2);
 }
-
 .wrapper .main .main__about .main__about_content .main__about_right_panel .main__about_right_panel_box_design .main__about_right_panel_transcription, .wrapper .main .main__about .main__about_content .main__about_right_panel .main__about_right_panel_box_easy .main__about_right_panel_transcription, .wrapper .main .main__about .main__about_content .main__about_right_panel .main__about_right_panel_box_fast .main__about_right_panel_transcription {
   margin-left: 48px;
   padding-bottom: 10px;
 }
-
 .wrapper .main .main__about .main__about_content .main__about_right_panel .main__about_right_panel_box_design .main__about_right_panel_transcription h4, .wrapper .main .main__about .main__about_content .main__about_right_panel .main__about_right_panel_box_easy .main__about_right_panel_transcription h4, .wrapper .main .main__about .main__about_content .main__about_right_panel .main__about_right_panel_box_fast .main__about_right_panel_transcription h4 {
   margin-top: 0;
-  font-family: 'Halyard Display';
+  font-family: "Halyard Display";
   font-style: normal;
   font-weight: 500;
   font-size: 22px;
   line-height: 125%;
   color: #1E266D;
 }
-
 .wrapper .main .main__about .main__about_content .main__about_right_panel .main__about_right_panel_box_design .main__about_right_panel_transcription P, .wrapper .main .main__about .main__about_content .main__about_right_panel .main__about_right_panel_box_easy .main__about_right_panel_transcription P, .wrapper .main .main__about .main__about_content .main__about_right_panel .main__about_right_panel_box_fast .main__about_right_panel_transcription P {
-  font-family: 'Halyard Text';
+  font-family: "Halyard Text";
   font-style: normal;
   font-weight: 400;
   font-size: 18px;
   line-height: 27px;
   color: #455880;
 }
-
 .wrapper .main .main__about .main__about_content .main__about_right_panel .main__about_right_panel_box_easy,
 .wrapper .main .main__about .main__about_content .main__about_right_panel .main__about_right_panel_box_fast {
   margin-top: 29px;
 }
-
 .wrapper .main .main__about .main__about_content .main__about_right_panel .main__about_right_panel_box_fast {
   border: none;
 }
-
 .wrapper .main .main__portfolio {
   max-width: 1600px;
   width: 100%;
   background-color: #FFF9EA;
-  display: -webkit-box;
-  display: -ms-flexbox;
   display: flex;
-  -webkit-box-orient: vertical;
-  -webkit-box-direction: normal;
-      -ms-flex-direction: column;
-          flex-direction: column;
-  -webkit-box-align: center;
-      -ms-flex-align: center;
-          align-items: center;
-  -ms-flex-pack: distribute;
-      justify-content: space-around;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-around;
 }
-
 .wrapper .main .main__portfolio h2 {
-  font-family: 'Halyard Display';
+  font-family: "Halyard Display";
   font-weight: 500;
   font-size: 48px;
   line-height: 60px;
@@ -355,9 +258,8 @@ body {
   color: #1E266D;
   margin-top: 139px;
 }
-
 .wrapper .main .main__portfolio p {
-  font-family: 'Halyard Text';
+  font-family: "Halyard Text";
   font-style: normal;
   font-weight: 400;
   font-size: 21px;
@@ -367,9 +269,8 @@ body {
   max-width: 420px;
   width: auto;
 }
-
 .wrapper .main .main__portfolio button {
-  font-family: 'Halyard Text';
+  font-family: "Halyard Text";
   font-style: normal;
   font-weight: 400;
   font-size: 16px;
@@ -383,15 +284,13 @@ body {
   margin-top: 19px;
   margin-bottom: 36px;
 }
-
 .wrapper .main .main__testimonials {
   max-width: 1180px;
   width: 100%;
   margin: 0 auto;
 }
-
 .wrapper .main .main__testimonials h2 {
-  font-family: 'Halyard Display';
+  font-family: "Halyard Display";
   font-weight: 500;
   font-size: 48px;
   line-height: 60px;
@@ -399,63 +298,41 @@ body {
   color: #1E266D;
   margin-top: 139px;
 }
-
 .wrapper .main .main__testimonials .main__testimonials_conteiner {
-  display: -webkit-box;
-  display: -ms-flexbox;
   display: flex;
-  -webkit-box-align: start;
-      -ms-flex-align: start;
-          align-items: flex-start;
+  align-items: flex-start;
   max-width: 1179px;
   width: 100%;
 }
-
 .wrapper .main .main__testimonials .main__testimonials_conteiner .main__testimonials_conteiner_box_left, .wrapper .main .main__testimonials .main__testimonials_conteiner .main__testimonials_conteiner_box_centr, .wrapper .main .main__testimonials .main__testimonials_conteiner .main__testimonials_conteiner_box_right {
-  border: 1px solid #45588033;
+  border: 1px solid rgba(69, 88, 128, 0.2);
   padding: 38px 43px;
   max-width: 373px;
   width: 100%;
   height: 467px;
-  display: -webkit-box;
-  display: -ms-flexbox;
   display: flex;
-  -webkit-box-orient: vertical;
-  -webkit-box-direction: normal;
-      -ms-flex-direction: column;
-          flex-direction: column;
-  -webkit-box-pack: justify;
-      -ms-flex-pack: justify;
-          justify-content: space-between;
-  -webkit-box-align: center;
-      -ms-flex-align: center;
-          align-items: center;
-  -webkit-box-sizing: border-box;
-          box-sizing: border-box;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: center;
+  box-sizing: border-box;
 }
-
 .wrapper .main .main__testimonials .main__testimonials_conteiner .main__testimonials_conteiner_box_left p, .wrapper .main .main__testimonials .main__testimonials_conteiner .main__testimonials_conteiner_box_centr p, .wrapper .main .main__testimonials .main__testimonials_conteiner .main__testimonials_conteiner_box_right p {
-  font-family: 'Halyard Text';
+  font-family: "Halyard Text";
   font-style: normal;
   font-weight: 400;
   font-size: 18px;
   line-height: 180%;
   color: #455880;
 }
-
 .wrapper .main .main__testimonials .main__testimonials_conteiner .main__testimonials_conteiner_box_left img, .wrapper .main .main__testimonials .main__testimonials_conteiner .main__testimonials_conteiner_box_centr img, .wrapper .main .main__testimonials .main__testimonials_conteiner .main__testimonials_conteiner_box_right img {
-  -ms-flex-item-align: center;
-      -ms-grid-row-align: center;
-      align-self: center;
+  align-self: center;
 }
-
 .wrapper .main .main__testimonials .main__testimonials_conteiner .main__testimonials_conteiner_box_left .main__testimonials_conteiner_box_footer, .wrapper .main .main__testimonials .main__testimonials_conteiner .main__testimonials_conteiner_box_centr .main__testimonials_conteiner_box_footer, .wrapper .main .main__testimonials .main__testimonials_conteiner .main__testimonials_conteiner_box_right .main__testimonials_conteiner_box_footer {
   width: 270px;
   height: 60px;
 }
-
 .wrapper .main .main__testimonials .main__testimonials_conteiner .main__testimonials_conteiner_box_left .main__testimonials_conteiner_box_footer h4, .wrapper .main .main__testimonials .main__testimonials_conteiner .main__testimonials_conteiner_box_centr .main__testimonials_conteiner_box_footer h4, .wrapper .main .main__testimonials .main__testimonials_conteiner .main__testimonials_conteiner_box_right .main__testimonials_conteiner_box_footer h4 {
-  font-family: 'Halyard Display';
+  font-family: "Halyard Display";
   font-style: normal;
   font-weight: 500;
   font-size: 22px;
@@ -464,36 +341,26 @@ body {
   color: #1E266D;
   margin-bottom: 0%;
 }
-
 .wrapper .main .main__testimonials .main__testimonials_conteiner .main__testimonials_conteiner_box_left .main__testimonials_conteiner_box_footer p, .wrapper .main .main__testimonials .main__testimonials_conteiner .main__testimonials_conteiner_box_centr .main__testimonials_conteiner_box_footer p, .wrapper .main .main__testimonials .main__testimonials_conteiner .main__testimonials_conteiner_box_right .main__testimonials_conteiner_box_footer p {
   text-align: center;
   margin-top: 0%;
 }
-
 .wrapper .main .main__testimonials .main__testimonials_conteiner .main__testimonials_conteiner_box_centr {
   margin: 0 31.65px 0 31.65px;
 }
-
 .wrapper .main .main__cta {
   background-color: #3751FF;
   margin-top: 148px;
-  display: -webkit-box;
-  display: -ms-flexbox;
   display: flex;
   max-width: 1600px;
   width: 100%;
   height: 323px;
-  -ms-flex-line-pack: center;
-      align-content: center;
-  -ms-flex-pack: distribute;
-      justify-content: space-around;
-  -webkit-box-align: center;
-      -ms-flex-align: center;
-          align-items: center;
+  align-content: center;
+  justify-content: space-around;
+  align-items: center;
 }
-
 .wrapper .main .main__cta h2 {
-  font-family: 'Halyard Display';
+  font-family: "Halyard Display";
   font-style: normal;
   font-weight: 500;
   font-size: 48px;
@@ -502,123 +369,84 @@ body {
   max-width: 366px;
   width: 100%;
 }
-
 .wrapper .main .main__cta .main__cta_button-box {
-  display: -webkit-box;
-  display: -ms-flexbox;
   display: flex;
-  -webkit-box-orient: vertical;
-  -webkit-box-direction: normal;
-      -ms-flex-direction: column;
-          flex-direction: column;
-  -webkit-box-align: end;
-      -ms-flex-align: end;
-          align-items: flex-end;
+  flex-direction: column;
+  align-items: flex-end;
 }
-
 .wrapper .main .main__cta .main__cta_button-box button {
   width: 245.28px;
   height: 56px;
   background-color: #FFFFFF;
   border-radius: 100px;
   border: none;
-  font-family: 'Halyard Display';
+  font-family: "Halyard Display";
   font-style: normal;
   font-weight: 500;
   font-size: 18px;
   line-height: 110%;
   text-align: center;
   color: #455880;
-  display: -webkit-box;
-  display: -ms-flexbox;
   display: flex;
-  -ms-flex-line-pack: center;
-      align-content: center;
-  -webkit-box-pack: center;
-      -ms-flex-pack: center;
-          justify-content: center;
-  -webkit-box-align: center;
-      -ms-flex-align: center;
-          align-items: center;
-  -webkit-box-pack: space-evenly;
-      -ms-flex-pack: space-evenly;
-          justify-content: space-evenly;
-  -webkit-box-sizing: border-box;
-          box-sizing: border-box;
+  align-content: center;
+  justify-content: center;
+  align-items: center;
+  justify-content: space-evenly;
+  box-sizing: border-box;
 }
-
 .wrapper .main .main__cta .main__cta_button-box button:hover {
   background-color: #FED385;
   color: #FF2E6A;
 }
-
 .wrapper .main .main__cta .main__cta_button-box a {
   text-decoration: none;
   color: #FED385;
 }
-
 .wrapper .main .main__cta .main__cta_button-box p {
-  font-family: 'Halyard Text';
+  font-family: "Halyard Text";
   font-style: normal;
   font-weight: 400;
   font-size: 16px;
   line-height: 125%;
   color: #DFE0EB;
 }
-
 .wrapper .footer .footer__up {
-  display: -webkit-box;
-  display: -ms-flexbox;
   display: flex;
   max-width: 1180px;
   width: 100%;
   margin: 0 auto;
-  -webkit-box-pack: justify;
-      -ms-flex-pack: justify;
-          justify-content: space-between;
-  -webkit-box-align: baseline;
-      -ms-flex-align: baseline;
-          align-items: baseline;
+  justify-content: space-between;
+  align-items: baseline;
   padding: 128px 0 68px 0;
   border-bottom: 1px solid rgba(135, 146, 161, 0.08);
 }
-
 .wrapper .footer .footer__up ul {
   padding: 0%;
 }
-
 .wrapper .footer .footer__up h5 {
-  font-family: 'Halyard Display';
+  font-family: "Halyard Display";
   font-style: normal;
   font-weight: 500;
   font-size: 22px;
   line-height: 125%;
   color: #1E266D;
 }
-
 .wrapper .footer .footer__up a {
-  font-family: 'Halyard Text';
+  font-family: "Halyard Text";
   font-style: normal;
   font-weight: 400;
   font-size: 18px;
   line-height: 225%;
   color: #455880;
 }
-
 .wrapper .footer .footer__up .digits {
   width: 310px;
   height: 66px;
-  display: -webkit-box;
-  display: -ms-flexbox;
   display: flex;
-  -webkit-box-orient: vertical;
-  -webkit-box-direction: normal;
-      -ms-flex-direction: column;
-          flex-direction: column;
+  flex-direction: column;
 }
-
 .wrapper .footer .footer__up .digits .logo {
-  font-family: 'Halyard Display';
+  font-family: "Halyard Display";
   font-style: normal;
   font-weight: 600;
   font-size: 26.1637px;
@@ -627,59 +455,42 @@ body {
   text-decoration: none;
   margin-bottom: 31.37px;
 }
-
 .wrapper .footer .footer__up .digits .logo::after {
-  content: ':';
+  content: ":";
   color: #FF2E6A;
 }
-
 .wrapper .footer .footer__up .digits p {
-  font-family: 'Halyard Text';
+  font-family: "Halyard Text";
   font-style: normal;
   font-weight: 400;
   font-size: 18px;
   line-height: 145%;
   color: #455880;
 }
-
 .wrapper .footer .footer__up .pages, .wrapper .footer .footer__up .demos {
-  display: -webkit-box;
-  display: -ms-flexbox;
   display: flex;
-  -webkit-box-orient: vertical;
-  -webkit-box-direction: normal;
-      -ms-flex-direction: column;
-          flex-direction: column;
+  flex-direction: column;
 }
-
 .wrapper .footer .footer__up .pages ul, .wrapper .footer .footer__up .demos ul {
   margin-top: 0%;
 }
-
 .wrapper .footer .footer__up .resourses .social li {
   display: inline;
   margin-right: 26px;
 }
-
 .wrapper .footer .footer__bottom {
-  display: -webkit-box;
-  display: -ms-flexbox;
   display: flex;
   max-width: 1180px;
   width: 100%;
   margin: 0 auto;
   padding: 53px 0 107px 0;
-  -webkit-box-pack: justify;
-      -ms-flex-pack: justify;
-          justify-content: space-between;
+  justify-content: space-between;
 }
-
 .wrapper .footer .footer__bottom li {
   display: inline;
 }
-
 .wrapper .footer .footer__bottom li a {
-  font-family: 'Halyard Text';
+  font-family: "Halyard Text";
   font-style: normal;
   font-weight: 400;
   font-size: 14px;
@@ -688,13 +499,11 @@ body {
   color: #455880;
   margin-left: 27px;
 }
-
 .wrapper .footer .footer__bottom p {
-  font-family: 'Halyard Text';
+  font-family: "Halyard Text";
   font-style: normal;
   font-weight: 400;
   font-size: 14px;
   line-height: 27px;
   color: rgba(69, 88, 128, 0.5);
-}
-/*# sourceMappingURL=style.css.map */
+}/*# sourceMappingURL=style.css.map */
